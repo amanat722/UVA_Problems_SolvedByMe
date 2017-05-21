@@ -1,0 +1,89 @@
+//10474 - Where is the Marble
+
+#include <bits/stdc++.h>
+using namespace std;
+        int arr[10000+5];
+        int b;
+        int test;
+ 
+         int check(int a)
+         { 
+         	int temp=a;
+         	temp--;
+ 
+         	if(arr[temp]==test && (temp>=0))
+         	  {
+         	  	check(temp);
+         	  }
+         	 else 
+         	 {return a;}
+         	}
+ 
+ 
+		int main() {
+			int a,hi,lo,mid,c=0;
+			bool flag;
+ 
+			while(true)
+			{
+				c++;
+ 
+				cin>>a>>b;
+				if(a==0 && b==0)
+				{
+					break;
+				}
+ 
+				else
+				{
+				    cout<<"CASE# "<<(c)<<":"<<endl;
+ 
+					for(int i=0;i<a;i++)
+					{
+						 cin>>arr[i];
+					}
+						sort(arr,arr+a);
+						for(int j=0;j<b;j++)
+					{
+ 
+						cin>>test;
+						flag=false;
+ 
+ 
+					lo=0; hi=a;
+ 
+					while(lo<hi)
+					{
+						mid=(hi+lo)/2;
+						if(arr[mid]==test)
+						{
+							mid=check(mid);
+							cout<<test<<" found at "<<mid+1<<endl;
+							flag=true;
+							break;
+						}
+						else if(arr[mid]>test)
+						{
+							mid=hi--;
+						}
+						else
+						{
+							mid=lo++;
+						}
+ 
+					}
+					if (flag==false)
+					{
+						cout<<test<<" not found"<<endl;
+					}
+ 
+ 
+ 
+ 
+					}
+ 
+ 
+				}
+			}
+	}
+ 
