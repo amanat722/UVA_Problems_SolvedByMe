@@ -18,6 +18,7 @@ git reset HEAD fol/file_name.txt - unstage the file from staging area
 *********************q - when you cant find whre to write
 ***********************git checkout f019ed -- fol/file_name.txt -if commited and want to go back to specific file find it using git log ; here f019ed 
  git remote add UVAHUB https://github.com/amanat722/UVA_Problems_SolvedByMe.git - adds nickname to url
+git push -u UVAHUB master
 
 
 
