@@ -1,5 +1,6 @@
 //uva 272
 //my easy way
+//
 
 import java.io.BufferedReader;
 import java.io.IOException;
