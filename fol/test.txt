@@ -1,1 +1,31 @@
-adsf
+how to use git
+** git init - makes the folder a git repository
+**pwd - kon folder e ami
+**ls - oi folder er subfolder
+cd folder_name - jei folder e dhukte chai
+git status - oi folder shob ki git track korche kina?
+git add . - shob kichu add kore Staging area te then commit kora baki thake
+git commit -m "write a msg inside qoutation mark" - now you are complete
+***git rm file_name.txt" - removes file from repository and workspace(my computer)
+git mv file_name.txt new_file_name.txt - renames file
+****git mv file_name.txt folder_name/new_file_name.txt -moves file to new folder and renames it
+git diff - see the changes made
+***git commit -am "you msg" =directly adds to repository
+*****git checkout -- fol_name/file.txt -uncommited and unstaged file back to commited form
+******git log -view all the changes made and by whom
+git reset HEAD fol/file_name.txt - unstage the file from staging area
+
+*********************q - when you cant find whre to write
+***********************git checkout f019ed -- fol/file_name.txt -if commited and want to go back to specific file find it using git log ; here f019ed 
+
+
+
+
+
+git config --global user.name "Amanat"                      changes name email and to view these
+git config --global user.email "mama@gmail.com"
+git config --list 
+
+
+yoooooooooooooooooooo mama yooooooooooooooooooooooooooo
+
