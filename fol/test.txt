@@ -15,7 +15,7 @@ git diff - see the changes made
 ******git log -view all the changes made and by whom
 git reset HEAD fol/file_name.txt - unstage the file from staging area
 
-
+*********************q - when you cant find whre to write
 
 
 
@@ -26,5 +26,5 @@ git config --global user.email "mama@gmail.com"
 git config --list 
 
 
-yo mama yo
+yoooooooooooooooooooo mama yooooooooooooooooooooooooooo
 
