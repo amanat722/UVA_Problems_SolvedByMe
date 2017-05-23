@@ -1,1 +1,13 @@
-kireh mama
+how to use git
+pwd - kon folder e ami
+ls - oi folder er subfolder
+cd folder_name - jei folder e dhukte chai
+git status - oi folder shob ki git track korche kina?
+git add . - shob kichu add kore Staging area te then commit kora baki thake
+git commit -m "write a msg inside qoutation mark" - now you are complete
+git rm file_name.txt" - removes file from repository and workspace(my computer)
+git mv file_name.txt new_file_name.txt - renames file
+git mv file_name.txt folder_name/new_file_name.txt -moves file to new folder and renames it
+git diff - see the changes made
+git commit -am "you msg" =directly adds to repository
+
