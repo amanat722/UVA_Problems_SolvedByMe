@@ -11,7 +11,10 @@ git mv file_name.txt new_file_name.txt - renames file
 ****git mv file_name.txt folder_name/new_file_name.txt -moves file to new folder and renames it
 git diff - see the changes made
 ***git commit -am "you msg" =directly adds to repository
-*****git checkout -- fol_name/file.txt -uncommited file back to commited form
+*****git checkout -- fol_name/file.txt -uncommited and unstaged file back to commited form
+******git log -view all the changes made and by whom
+git reset HEAD fol/file_name.txt - unstage the file from staging area
+
 
 
 
@@ -21,4 +24,7 @@ git diff - see the changes made
 git config --global user.name "Amanat"                      changes name email and to view these
 git config --global user.email "mama@gmail.com"
 git config --list 
+
+
+yo mama yo
 
