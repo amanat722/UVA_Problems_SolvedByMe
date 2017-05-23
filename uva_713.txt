@@ -1,0 +1,32 @@
+//uva 713
+import java.math.BigInteger;
+import java.util.Scanner;
+
+
+public class Main
+{
+  public static void main(String args[]) 
+  {
+    StringBuffer tn;
+    BigInteger n1 , n2 ,sum;
+//System.out.println("yo");
+    
+    Scanner sc=new Scanner(System.in);
+    int test=Integer.parseInt(sc.nextLine());
+    for(int i=0; i<test;i++)
+    {
+      tn=new StringBuffer(sc.next());
+      tn=tn.reverse();
+      n1=new BigInteger(tn.toString());
+      tn=new StringBuffer(sc.next());
+      tn=tn.reverse();
+      n2=new BigInteger(tn.toString());
+      sum=n1.add(n2);
+      tn=new StringBuffer(sum.toString());
+      tn=tn.reverse();
+      sum=new BigInteger(tn.toString());
+      
+      System.out.println(sum);
+    }
+  }
+}
